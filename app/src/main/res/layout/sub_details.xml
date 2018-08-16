@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_marginTop="3dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#99000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:gravity="center"
+                android:layout_margin="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/white"
+                android:text="Your Favourate Dish" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/veg_text"
+                        android:layout_width="match_parent"
+                        android:paddingLeft="80dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="14dp"
+
+                        android:layout_height="wrap_content"
+                        android:text="VHKVD AHSVHSA ASHKVUSA"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:textSize="13dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="italic"
+                    android:text="ebfkhjbed hwefvwel wfhjvwehjwe whkj fwj wefwhvuwefhfhf uwe fw wfeuiwewehuwebfiwebfwe f we webiubwe we fweuhj ewh we we " />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="About The Dish"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="15dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_marginTop="7dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="italic"
+                android:textColor="@android:color/white"
+android:text="svdfkjs sdhubsdj sdkhjbdsh sdk usdh sd uhdshuds sduh uhsdb sdh usd uhsd uds ushd sd sd s ud usd" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

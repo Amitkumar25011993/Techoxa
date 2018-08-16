@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+   <android.support.v7.widget.CardView
+       android:id="@+id/card1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="5dp">
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+           <TextView
+               android:id="@+id/tv1"
+               android:textStyle="bold"
+               android:layout_marginLeft="5dp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Account"
+               android:textColor="#000"
+               android:textSize="15sp"
+               />
+
+           <LinearLayout
+               android:id="@+id/linear_profile"
+               android:layout_below="@+id/tv1"
+               android:layout_margin="10dp"
+               android:gravity="center"
+               android:orientation="horizontal"
+               android:weightSum="1"
+               android:layout_width="match_parent"
+               android:layout_height="60dp">
+
+
+
+                   <ImageView
+                       android:layout_weight="0.1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/profile_you"/>
+               <TextView
+                   android:id="@+id/tv1"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:textSize="20sp"
+               android:layout_marginLeft="5dp"
+               android:layout_weight="0.8"
+               android:text="Profile"
+                   tools:ignore="DuplicateIds" />
+
+
+                   <ImageView
+                       android:layout_weight="0.1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/right_arrow"/>
+
+           </LinearLayout>
+
+           <View
+               android:layout_marginTop="5dp"
+               android:layout_marginBottom="5dp"
+               android:layout_below="@+id/linear_profile"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/colorLightBrown"
+               android:id="@+id/view1" />
+
+           <LinearLayout
+               android:id="@+id/linear_wallets"
+               android:layout_below="@+id/view1"
+               android:layout_margin="10dp"
+               android:layout_width="match_parent"
+               android:layout_height="60dp"
+               android:orientation="horizontal"
+               android:weightSum="1"
+               android:gravity="center">
+
+
+
+                   <ImageView
+                       android:layout_weight="0.1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/wallets"/>
+                   <TextView
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:textSize="20sp"
+                       android:layout_marginLeft="5dp"
+                       android:layout_weight="0.8"
+                       android:text="Wallet"/>
+
+
+                   <ImageView
+                       android:layout_weight="0.1"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/right_arrow"/>
+
+           </LinearLayout>
+
+
+
+       </RelativeLayout>
+   </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_below="@+id/card1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv2"
+                android:textStyle="bold"
+                android:layout_marginLeft="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Help"
+                android:textColor="#000"
+                android:textSize="20sp"
+                />
+
+            <LinearLayout
+                android:id="@+id/linear_chat"
+                android:layout_below="@+id/tv2"
+                android:layout_margin="10dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+
+
+                    <ImageView
+                        android:layout_weight="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/profile_you"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.8"
+                        android:text="Chat"/>
+
+
+                    <ImageView
+                        android:layout_weight="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/right_arrow"/>
+
+                </LinearLayout>
+
+            <View
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_below="@+id/linear_chat"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorLightBrown"
+                android:id="@+id/view2" />
+
+            <LinearLayout
+                android:id="@+id/linear_email"
+                android:layout_below="@+id/view2"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal"
+                android:weightSum="1"
+                android:gravity="center">
+
+
+
+                    <ImageView
+                        android:layout_weight="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/wallets"/>
+                    <TextView
+                        android:id="@+id/sendEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.8"
+                        android:text="Mail"/>
+
+
+                    <ImageView
+                        android:layout_weight="0.1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/right_arrow"/>
+
+                </LinearLayout>
+
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>
